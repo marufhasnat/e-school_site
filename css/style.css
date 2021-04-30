@@ -1,0 +1,193 @@
+/* header start */
+header{
+    padding: 10px 0;
+    background-color: #F0FFF0 !important;
+}
+header ul li.nav-item{
+    padding: 0 20px;
+}
+header ul li.nav-item:last-child{
+    border-radius: 25px;
+    background-color: #21B573;
+    margin-left: 20px;
+}
+header ul li.nav-item:last-child a{
+    color: white !important;
+}
+header ul li.nav-item a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000 !important;
+    transition: all 0.5s;
+}
+header ul li.nav-item a:hover{
+    color: #21B573 !important;
+}
+header ul li.nav-item:last-child a:hover{
+    color: white !important;
+}
+/* header end */
+
+
+
+/* banner start */
+.banner{
+    background-color: #F0FFF0 !important;
+    padding: 70px 0 90px;
+}
+.banner .orange_p{
+    font-weight: 500;
+    color: #FD511A;
+}
+.banner h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+    word-spacing: 5px;
+}
+.banner h1 span{
+    color: #21B573 !important;
+}
+.banner .banner_para{
+    font-weight: 500;
+    color: gray;
+    margin: 30px 0;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+.banner .custom_btn{
+    font-size: 16px;
+    color: white;
+    background-color: #21B573;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+/* banner end */
+
+
+
+/* books start */
+.books{
+    padding: 80px 0;
+}
+.books .books_contents{
+    padding: 30px;
+    background-color: #F0FFF0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.books .activate{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.books .books_contents:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.books img{
+    width: 100px;
+    height: 100px;
+}
+.books h3{
+    color: #413960;
+    margin-top: 25px;
+}
+/* books end */
+
+
+
+/* courses start */
+.courses{
+    padding: 40px 0;
+}
+.courses h2{
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 20px;
+}
+.courses .card{
+    padding: 30px;
+    padding-bottom: 0px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.courses img{
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.courses .card img:hover{
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.courses h5{
+    margin-top: 20px;
+}
+.courses .custom_btn{
+    font-size: 12px;
+    color: white;
+    background-color: #21B573;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 25px;
+}
+.courses .courses_info{
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+/* courses end */
+
+
+
+/* testimonial start */
+.testimonial{
+    padding: 110px 0;
+}
+.testimonial img{
+    width: 170px;
+    height: 170px;
+}
+.testimonial h2{
+    font-weight: 700;
+    color: black;
+    margin-bottom: 50px;
+}
+/* testimonial end */
+
+
+
+/* footer start */
+/* footer{
+    color: white;
+    background-color: #282531;
+} */
+footer {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    background: #282531;
+    color: white;
+}
+
+footer .bottom_nav_section ul li a {
+    font-family: "Rubik";
+    font-size: 14px;
+    color: white !important;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+
+footer .bottom_nav_section ul li a:hover {
+    color: #21B573 !important;
+    -webkit-transition: 0.2s all ease-in-out;
+    -moz-transition: 0.2s all ease-in-out;
+    -ms-transition: 0.2s all ease-in-out;
+    -o-transition: 0.2s all ease-in-out;
+    transition: 0.2s all ease-in-out;
+}
+footer .copy_right{
+    padding-bottom: 20px;
+}
+/* footer end */
